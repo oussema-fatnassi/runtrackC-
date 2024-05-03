@@ -103,5 +103,6 @@ int main() {
         }
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
+    free(studentGrade);
     return 0;
 }
